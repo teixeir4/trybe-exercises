@@ -1,0 +1,98 @@
+1. Navegue até a pasta `unix_tests` ;
+
+```jsx
+cd unix_tests
+```
+
+2. Crie um arquivo texto pelo terminal com o nome `skills2.txt` e adicione os valores `Internet` , `Unix` e `Bash` , um em cada linha.
+
+```jsx
+cat > skills2.txt
+Internet
+Unix
+Bash
+Ctrl + D
+```
+
+3. Adicione mais 5 itens à sua lista de skills e depois imprima a lista ordenada no terminal. 🤓
+
+```jsx
+cat >> skills2.txt
+React
+Js
+Redux
+Oracle
+AWS
+Ctrl + D
+```
+
+4. Conte quantas linhas tem o arquivo `skills2.txt` .
+
+```jsx
+wc -l skills2.txt
+8 skills2.txt
+```
+
+5. Crie um arquivo chamado `top_skills.txt` usando o `skills2.txt` , contendo as 3 primeiras skills em ordem alfabética.
+
+```jsx
+sort < skills2.txt | head -n 3 | cat > top_skills2.txt
+```
+
+6. Crie um novo arquivo chamado `phrases2.txt` pelo terminal e adicione algumas frases de sua escolha.
+
+```jsx
+cat > phrases2.txt
+O rato roeu a roupa do rei de roma
+o cachorro é travesso
+Três pratos de trigo para três tigres tristes
+Escafedasse
+Brazil
+Bronze
+```
+
+1. Conte o número de linhas que contêm as letras `br`
+
+```jsx
+wc -l | grep br phrases2.txt
+bronze
+```
+
+8. Conte o número de linhas que **não** contêm as letras `br` .
+
+```jsx
+grep -iv 'br' phrases2.txt | wc -l
+4
+```
+
+8. Adicione dois nomes de países ao final do arquivo `phrases2.txt` .
+
+```jsx
+cat >> phrases2.txt 
+Estados Unidos 
+Dinamarca
+Ctrl + D
+```
+
+1. Crie um novo arquivo chamado `bunch_of_things.txt` com os conteúdos dos arquivos `phrases2.txt` e `countries.txt`
+
+```jsx
+cat phrases2.txt countries.txt > bunch_of_things.txt
+```
+
+1. Ordene o arquivo `bunch_of_things.txt` .
+
+```jsx
+sort < bunch_of_things.txt
+alemanha
+Brasil
+Brazil
+bronze
+Dinamarca
+Escafedasse
+Estados Unidos
+o cachorro é travesso
+O rato roeu a roupa do rei de roma
+suecia
+Três pratos de trigo para três tigres tristes
+```

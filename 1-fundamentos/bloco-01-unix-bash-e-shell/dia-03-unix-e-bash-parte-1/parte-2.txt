@@ -1,46 +1,44 @@
-1. Navegue até a pasta `unix_tests` ;
+  # exercício 1
+  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  
+    # exercício 2
+  cat countries.txt
+  
+    # exercício 3
+  less countries.txt
 
-```jsx
-cd unix_tests
-```
-
-2. Rode o comando [ls](https://linux.die.net/man/1/ls) `l` e veja quais as permissões dos arquivos;
-
-```jsx
-ls - l
-total 20
--rw-rw-r-- 1 teixeir4 teixeir4 180 abr 27 19:28 bunch_of_things.txt
--rw-rw-r-- 1 teixeir4 teixeir4  23 abr 27 19:27 countries.txt
--rw-rw-r-- 1 teixeir4 teixeir4 157 abr 27 19:24 phrases2.txt
--rw-rw-r-- 1 teixeir4 teixeir4  45 abr 27 18:40 skills2.txt
--rw-rw-r-- 1 teixeir4 teixeir4  18 abr 27 18:56 top_skills.txt
-```
-
-3. Mude a permissão do arquivo `bunch_of_things.txt` para que todos os usuários possam ter acesso à leitura e escrita, e verifique se está correto com o comando `ls -l` ;
-    
-    > Resultado esperado: -rw-rw-rw- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt
-    > 
-    
-    ```jsx
-    chmod a+rw bunch_of_things.txt
-    ```
-    
-4. Tire a permissão de escrita do arquivo `bunch_of_things.txt` para todos os usuários, verifique se está correto com o comando `ls -l` ;
-    
-    > Resultado esperado: -r--r--r-- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt
-    > 
-    
-    ```jsx
-    chmod a-w bunch_of_things.txt
-    ```
-    
-    ---
-    
-5. Volte à permissão do arquivo `bunch_of_things.txt` para a listada inicialmente utilizando o comando `chmod 644 bunch_of_things.txt` .
-    
-    > Resultado esperado: -rw-r--r-- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt
-    > 
-    
-    ```jsx
-    chmod 644 bunch_of_things.txt
-    ```
+  # exercício 4
+  less countries.txt
+  # /Zambia
+  # Enter
+  
+    # exercício 5
+  grep Brazil countries.txt
+  
+    # exercício 6
+  grep -i brazil countries.txt
+  
+    # exercício 7
+  grep -v fox phrases.txt
+  
+    # exercício 8
+  wc -w phrases.txt
+  
+    # exercício 9
+  wc -l phrases.txt
+  
+    # exercício 10
+  touch empty.tbt
+  touch empty.pdf
+  
+    # exercício 11
+  ls -l
+  
+    # exercício 12
+  ls -l *txt
+  
+    # exercício 13
+  ls -l *t?t
+  
+    # exercício 14
+  man ls
