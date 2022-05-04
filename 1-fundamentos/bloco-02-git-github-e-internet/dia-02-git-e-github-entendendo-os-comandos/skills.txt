@@ -1,0 +1,9 @@
+cat > skills.txt
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
+- HTML
+- CSS
+- Front End
