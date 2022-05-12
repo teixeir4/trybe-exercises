@@ -1,11 +1,15 @@
-const nota = 78;
+const situação = "aprovada";
 
-if (nota >= 80) {
-    console.log("Parabéns, você foi aprovado(a)")
-}
-else if (nota <= 80 && nota >= 60) {
-    console.log("Você está na nossa lista de espera")
-}
-else {
-    console.log ("Você foi reprovada(o)")
-}
+switch (situação) {
+  case "aprovada":
+    break;
+  case "lista":
+    break;
+  case "reprovada":
+    break;
+  default:
+    console.log("Não se aplica");
+    break;
+};
+
+console.log(situação);
