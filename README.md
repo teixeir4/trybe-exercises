@@ -23,7 +23,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - :white_check_mark:: 3-1: _HTML & CSS - Estruturas de página_
 - :white_check_mark:: 3-2: _HTML & CSS - Primeiros passos em CSS_
-- :hourglass_flowing_sand:: 3-3: _HTML & CSS - Seletores e posicionamento_
+- :white_check_mark:: 3-3: _HTML & CSS - Seletores e posicionamento_
 - :white_check_mark:: 3-4: _HTML Semântico_
 - :white_check_mark:: 3-5: _[Projeto - HTML & CSS]()_
 
