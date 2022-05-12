@@ -1,9 +1,15 @@
-const weekDay = "quarta-feira"
+const situação = "aprovada";
 
-if (weekDay === "Segunda-feira" || weekDay === "Terça-feira" || weekDay === 
-"quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira") {
-  console.log("Oba, mais um dia de aprendizado na Trybe :D");
-}
-else {
-  console.log("FINALMENTE, descanso merecido UwU");
-}
+switch (situação) {
+  case "aprovada":
+    break;
+  case "lista":
+    break;
+  case "reprovada":
+    break;
+  default:
+    console.log("Não se aplica");
+    break;
+};
+
+console.log(situação);
