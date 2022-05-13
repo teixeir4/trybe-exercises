@@ -1,15 +1,8 @@
-const situação = "aprovada";
+const a = 14;
+const b = 7;
 
-switch (situação) {
-  case "aprovada":
-    break;
-  case "lista":
-    break;
-  case "reprovada":
-    break;
-  default:
-    console.log("Não se aplica");
-    break;
-};
-
-console.log(situação);
+console.log('Soma: ' + (a + b));
+console.log('Subtração: ' + (a - b));
+console.log('Multiplicação: ' + (a * b));
+console.log('Divisão: ' + (a / b));
+console.log('Módulo: ' + (a % b));
