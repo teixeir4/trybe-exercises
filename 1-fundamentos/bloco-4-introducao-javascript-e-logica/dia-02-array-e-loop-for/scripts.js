@@ -1,10 +1,21 @@
-// desenvolva um algoritmo que é capaz de inverter uma palavra.
+// Ache a maior e a menor palavra dentro do array, consiodere o numero de caracteres
 
-let word = 'tryber';
-let palavraInvertida = '';
+let array = ['java', 'javascript', 'python', 'html', 'css'];
 
-for (let index = 0; index < word.length; index += 1) {
-  palavraInvertida += word[word.length - 1 - index];
+let maiorPalavra = array[0];
+let menorPalavra = array[0];
+
+for (let index = 0; index < array.length; index += 1) {
+  if (array[index].length > maiorPalavra.length) {
+    maiorPalavra = array[index];
+  }
 }
 
-console.log(palavraInvertida);
+for (let index = 0; index < array.length; index += 1) {
+  if (array[index].length < menorPalavra.length) {
+    menorPalavra = array[index];
+  }
+}
+
+console.log(maiorPalavra);
+console.log(menorPalavra);
