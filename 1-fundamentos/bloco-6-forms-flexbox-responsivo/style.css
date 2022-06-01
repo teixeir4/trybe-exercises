@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 5px 
+}
+
+#h1title{
+    padding: 10px;
+}
+
+.line-content {
+    margin: 10px;
+    border: 0 none;
+}
+
+#text-area{
+    width: 50%;
+}
+
+#name {
+    margin-bottom: 7px;
+}
+
+#agree-1 {
+    margin-bottom: 4px;
+}
+
+#send {
+    padding: 5px;
+    border-radius: 4px;
+    width: 100px;
+    border-color: #0cca45;
+    color: rgb(12, 10, 10);
+    background-image: -webkit-linear-gradient(45deg, #0cca45 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #0cca45 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+#send:hover {
+    background-position: 0;
+    box-shadow: 2px 1px rgb(55, 133, 78);
+}
+
+#clean {
+    padding: 5px;
+    border-radius: 4px;
+    width: 150px;
+    border-color: #0cca45;
+    color: rgb(12, 10, 10);
+    background-image: -webkit-linear-gradient(45deg, #0cca45 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #0cca45 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+#clean:hover {
+    background-position: 0;
+    box-shadow: 2px 1px rgb(55, 133, 78);
+}
+
+#only {
+    padding: 5px;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    border-color: #0cca45;
+    color: rgb(12, 10, 10);
+    background-image: -webkit-linear-gradient(45deg, #0cca45 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #0cca45 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+#only:hover {
+    background-position: 0;
+    box-shadow: 2px 1px rgb(55, 133, 78);
+}
